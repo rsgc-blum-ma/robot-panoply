@@ -10,7 +10,7 @@ void setup() {
 
   // Ask the drawAt function to be run
   drawAt(300, 200, 1.0, 1.0);
-  drawAt(500, 100, 1.0, 1.0);
+  drawAt(100, 100, 1.0, 1.0);
 }
 
 // Purpose: To draw my robot at the specified location
