@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 void setup () {
   size(900, 900);
@@ -9,3 +10,7 @@ void setup () {
   blumbot.drawAt(50, 200, 0.75, 0.75);
   gordonbot.drawAt(50, 200, 0.4, 0.4);
 }
+=======
+void setup() {
+} 
+>>>>>>> rsgc-ics2o-spring2016/master
