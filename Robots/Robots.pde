@@ -3,6 +3,11 @@ int scene=1;
 void setup() {
   size(900, 900);
   background(255);
+  textSize(50); 
+  fill(0);
+  text(" Total Recall ", 275, 250);
+  textSize(25);
+  text(" Spoilers ", 375, 450);
 }
 void draw() {
 }
@@ -15,6 +20,9 @@ void keyPressed() {
     ellipse(650, 675, 50, 50);
     ellipse(350, 650, 50, 50);
     ellipse(150, 700, 50, 50);
+    fill(0); 
+    textSize(18);
+    text("Scene 1: Going to Mars", 10, 45);
     DHRobot hoferbot = new DHRobot();
     RGRobot gordonbot = new RGRobot();
     hoferbot.drawAt(390, 200, 0.1, 0.1);
@@ -36,6 +44,8 @@ void keyPressed() {
     ellipse(650, 345, 250, 100);
     fill(0); 
     textSize(18);
+    text("Scene 2: Arriving at Mars", 10, 45);
+    textSize(18);
     text("I LOVE MARS", 600, 345);
   }
   if (key == '3') 
@@ -49,6 +59,8 @@ void keyPressed() {
     noStroke();
     ellipse(750, 345, 150, 50);
     fill(0); 
+    textSize(18);
+    text("Scene 3: Realizing that he isnt really at mars", 10, 45);
     textSize(16);
     text("I LOVE MARS", 690, 355);
     fill(255);
